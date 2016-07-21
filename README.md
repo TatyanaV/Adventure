@@ -11,7 +11,7 @@ Your program will first create a series of files that hold descriptions of the r
 The player will begin in the “starting room” and will win the game automatically upon entering the “ending room”.
 
 Finally, the program will exit and display the path taken by the player.
-Specifications 
+#Specifications 
 
 The first thing your program must do is generate 7 different rooms in a directory called <username>.rooms.<process id>. For example, the directory, if I was writing the program, should be hard-coded (except for the process id number), as:
 
@@ -121,6 +121,6 @@ What you’ll submit is your program, named <username>.adventure.c. It will be c
 When your program exits, set the error code to 0, and leave the rooms directory in place, so that it can also be examined.
 
 If you need to use temporary files, place them in the directory you create, above. Do not leave any behind once your program is finished. We will not test for early termination of your program, so you don’t need to watch for those signals.
-Hints
+#Hints
 
 You’ll need to figure out how to get C to read input from the keyboard, and pause until input is received. I recommend you use the fgets() function. You’ll also get the chance to become proficient reading and writing files. You may use either the older open, close, lseek method of manipulating files, or the STDIO standard input library methods that use fopen, fclose, and fseek.
