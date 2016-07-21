@@ -4,7 +4,7 @@ This assignment asks you to write a simple game akin to old text adventure games
 http://en.wikipedia.org/wiki/Colossal_Cave_Adventure (Links to an external site.)
 
 This program will introduce you to programming in C on UNIX based systems, and will get you familiar with reading and writing files.
-Overview
+#Overview
 
 Your program will first create a series of files that hold descriptions of the rooms and how rooms are connected, and then it will offer to the player an interface for playing the game using those generated rooms.
 
